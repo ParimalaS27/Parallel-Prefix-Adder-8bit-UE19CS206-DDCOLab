@@ -7,7 +7,9 @@ Created and tested on Linux Environment.
 Use the following commands to compile the file with the testbench and create the waveform image:
 
 iverilog -o prefix prefix_adder.v tb_prefix_adder.v
+
 vvp prefix
 
 Finally, view the waveform using:
+
 gtkwave dump.vcd
